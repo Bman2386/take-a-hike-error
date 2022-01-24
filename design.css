@@ -1,8 +1,57 @@
+@font-face {
+    font-family: bukhari;
+    src: url('./fonts/BukhariScript-Regular.ttf')
+}
+
+@font-face {
+    font-family: peddana;
+    src: url('https://fonts.googleapis.com/css2?family=Peddana&family=Sansita+Swashed:wght@500&display=swap')
+}
+
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+    padding: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: green;
     color: white;
-    
+}
+
+h1 {
+    font-family: bukhari;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    margin: 1rem;
+    text-decoration: none;
+}
+.linkedin {
+    height: 2rem;
+    width: 2rem;
+}
+
+.git {
+     height: 2rem;
+    width: 2rem;
 }
